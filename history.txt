@@ -1,0 +1,16 @@
+  182  cd HomeWork-12
+  183  ls -al
+  184  git checkout -b feature
+  185  nano README.md
+  186  nano .gitignore
+  187  git status
+  188  git add .
+  189  git status
+  190  git commit -m "Change 2 files"
+  191  git log
+  192  git push
+  193  git push -u origin feature
+  194  git commit --amend -m "Change 2 files ammend"
+  195  git push --force origin feature
+  196  git checkout main
+  197  git merge feature
